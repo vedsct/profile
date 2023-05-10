@@ -1,0 +1,82 @@
+.container{
+  font-family: Space Grotesk;
+  background-color: #7C96AB;
+  color: B7B7B7;
+  padding: 50px;
+  text-align: center;
+}
+h1, h2, h3{
+  font-family: Space Mono;
+  color: #BFCCB5;
+}
+li{
+  display: inline;
+}
+ul{
+  padding: 0;
+}
+.button{
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #BA6E6E;
+  color: white;
+  padding: 6px;
+  border-radius: 5px;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  transition: 0.3s ease;
+}
+.button:hover{
+  background-color: black;
+}
+#profile-pic{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.my-profile{
+  background-color: #F0F0F0;
+  padding: 50px;
+  width:800px;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+}
+.card{
+  background-color: #F0F0F0;
+  padding: 50px;
+  width:800px;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+}
+.follow{
+  text-decoration: none;
+  color: #EDC6B1;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+.follow:hover{
+  color: #FFABAB;
+}
+@media (max-width: 1000px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 500px;
+  }
+  .my-profile {
+    width: 500px;
+  }
+
+}
+
+@media (max-width: 700px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card {
+    width: 300px;
+  }
+  .my-profile {
+    width: 300px;
+  }
+}
